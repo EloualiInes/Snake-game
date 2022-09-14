@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #373839;
+}
+
+/* root */
+
+div#root{
+    height: 500px;
+    width: 500px;
+    border: 3px solid red;
+    margin: 0px auto;
+    margin-top: calc(50vh - 250px);
+    /* display: flex; */
+    border: none;
+    
+}
+
+div#root > table{
+    flex: 1;
+    border-collapse: collapse;
+}
+
+div#root > table tr{
+    width: 500px;
+    height: 25px;
+}
+
+div#root > table td{
+    height: 25px;
+    width: 25px;
+    background-color: brown;
+    padding: 0;
+}
+
+
+.styleGamer{
+    display: run-in;
+    height: 22px;
+    width: 22px;
+    background-color: blue;
+}
+
+
